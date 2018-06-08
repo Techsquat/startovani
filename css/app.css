@@ -1,6 +1,15 @@
-a, h1, h2, h3, h4 {
+h1, h2, h3, h4 {
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 }
-p {
+p, a {
 	font-family: 'Open Sans', sans-serif;
 }
+
+#block-top {
+	background-color: aquamarine;
+}
+#top-nav {
+	
+}
+#top-nav .top-bar-right img { height: 2rem; }
