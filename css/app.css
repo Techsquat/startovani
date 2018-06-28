@@ -13,3 +13,19 @@ p, a {
 	
 }
 #top-nav .top-bar-right img { height: 2rem; }
+
+.block { 
+padding-top: 4em;
+padding-bottom: 4em;
+}
+
+#co-delame {
+	
+}
+#co-delame .call-out {
+	text-align: center;
+}
+#co-delame .call-out h2 {
+	font-size: 4em;
+	font-weight: 400;
+}
