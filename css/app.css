@@ -1,31 +1,54 @@
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
-p, a {
+
+p,
+a {
 	font-family: 'Open Sans', sans-serif;
 }
 
-#block-top {
-	background-color: aquamarine;
-}
-#top-nav {
-	
-}
-#top-nav .top-bar-right img { height: 2rem; }
+#top-nav {}
 
-.block { 
-padding-top: 4em;
-padding-bottom: 4em;
+#top-nav .top-bar-right img {
+	height: 2rem;
 }
 
-#co-delame {
-	
+.block {
+	padding-top: 4em;
+	padding-bottom: 4em;
 }
+
+.illus {
+	width: 10em;
+	height: 10em;
+}
+
+/* Phones */
+
+@media screen and (max-width: 400px) {
+	.illus {
+		width: 6em;
+		height: 6em;
+	}
+}
+
+
+#co-delame {}
+
 #co-delame .call-out {
 	text-align: center;
 }
+
 #co-delame .call-out h2 {
 	font-size: 4em;
 	font-weight: 400;
 }
+
+
+
+
+#co-ziskate {}
