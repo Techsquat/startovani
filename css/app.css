@@ -1,3 +1,7 @@
+body {
+	background: #efefef;
+}
+
 h1,
 h2,
 h3,
@@ -7,14 +11,46 @@ h4 {
 }
 
 p,
-a {
+a,
+a.button {
 	font-family: 'Open Sans', sans-serif;
 }
 
-#top-nav {}
+a.button {
+	font-size: 1em;
+}
 
-#top-nav .top-bar-right img {
-	height: 2rem;
+.top-nav-ribbon {
+	background-color: white;
+	padding-top: 1em;
+}
+
+.logo-startovani {
+	display: inline-block;
+	font-size: 2em;
+	background: -webkit-linear-gradient(0deg, #1AB24B, #EF3847);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.logo-startupweekend {
+	max-width: 16em;
+}
+
+.logo-startupgrind {
+	max-width: 10em;
+	padding-top: 1em;
+}
+
+@media screen and (max-width: 500px) {
+	.logo-startupweekend {
+		max-width: 8em;
+	}
+
+	.logo-startupgrind {
+		max-width: 5em;
+		padding-top: 0.5em;
+	}
 }
 
 .block {
