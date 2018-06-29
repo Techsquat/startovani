@@ -143,6 +143,12 @@ GENERAL
 	height: 10em;
 }
 
+.illus.smaller {
+
+	padding: .7em;
+}
+
+
 .card {
 	padding: 1em;
 	border-radius: .3em;
@@ -158,6 +164,7 @@ GENERAL
 		width: 8em;
 		height: 8em;
 	}
+
 }
 
 
@@ -168,6 +175,7 @@ GENERAL
 		width: 6em;
 		height: 6em;
 	}
+
 }
 
 
@@ -184,7 +192,7 @@ NAVIGATION
 
 .logo-startovani {
 	display: inline-block;
-	font-size: 2em;
+
 	background: -webkit-linear-gradient(0deg, #1AB24B, #EF3847);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -241,7 +249,6 @@ TEASER
 
 #teaser {
 	background: -webkit-linear-gradient(0deg, #1AB24B, #EF3847);
-
 }
 
 #teaser p,
@@ -259,7 +266,7 @@ TEASER
 	content: "";
 	display: block;
 	height: 0.5em;
-	width: 5em;
+	width: 100%;
 	margin-bottom: 0.2em;
 	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0) 35.71%, white 35.71%, white 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 85.71%, white 85.71%, white 100%);
 	background-size: 9.90px 9.90px;
