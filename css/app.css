@@ -3,7 +3,7 @@ BASICS
 **************/
 
 body {
-	background: #ddd;
+	background: #eee;
 }
 
 
@@ -11,6 +11,14 @@ body {
 /*************
 TYPOGRAPHY
 **************/
+
+p,
+h1,
+h2,
+h3,
+h4 {
+	color: rgba(50, 50, 100, 1);
+}
 
 h1,
 h2,
@@ -20,7 +28,7 @@ h4 {
 	font-weight: 700;
 }
 
-h2 {
+.gradient {
 	background: -webkit-linear-gradient(0deg, #1AB24B, #EF3847);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -54,10 +62,24 @@ GENERAL
 }
 
 .card {
-	padding: 0.5em 1em;
+	padding: 1em;
 	border-radius: .3em;
 	border: none;
 	box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+}
+
+.illus {
+	width: 10em;
+	height: 10em;
+}
+
+/* Tablets */
+
+@media screen and (max-width: 60em) {
+	.illus {
+		width: 8em;
+		height: 8em;
+	}
 }
 
 
@@ -142,6 +164,11 @@ TEASER
 
 #teaser {
 	background: -webkit-linear-gradient(0deg, #1AB24B, #EF3847);
+
+}
+
+#teaser p,
+#teaser h1 {
 	color: white;
 }
 
