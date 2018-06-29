@@ -1,7 +1,16 @@
+/*************
+BASICS
+**************/
+
 body {
 	background: #ddd;
 }
 
+
+
+/*************
+TYPOGRAPHY
+**************/
 
 h1,
 h2,
@@ -9,6 +18,13 @@ h3,
 h4 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
+}
+
+h2 {
+	background: -webkit-linear-gradient(0deg, #1AB24B, #EF3847);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block
 }
 
 p,
@@ -20,6 +36,37 @@ a.button {
 a.button {
 	font-size: 1em;
 }
+
+
+
+/*************
+GENERAL 
+**************/
+
+.block {
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+.illus {
+	width: 10em;
+	height: 10em;
+}
+
+/* Phones */
+
+@media screen and (max-width: 400px) {
+	.illus {
+		width: 6em;
+		height: 6em;
+	}
+}
+
+
+
+/*************
+NAVIGATION
+**************/
 
 .top-nav-ribbon {
 	background-color: white;
@@ -78,24 +125,11 @@ a.button {
 }
 
 
-.block {
-	padding-top: 4em;
-	padding-bottom: 4em;
-}
 
-.illus {
-	width: 10em;
-	height: 10em;
-}
 
-/* Phones */
-
-@media screen and (max-width: 400px) {
-	.illus {
-		width: 6em;
-		height: 6em;
-	}
-}
+/*************
+TEASER
+**************/
 
 #teaser {
 	background: -webkit-linear-gradient(0deg, #1AB24B, #EF3847);
@@ -118,6 +152,12 @@ a.button {
 	background-size: 9.90px 9.90px;
 }
 
+
+
+/*************
+CO DELAME
+**************/
+
 #co-delame {}
 
 #co-delame .call-out {
@@ -131,5 +171,8 @@ a.button {
 
 
 
+/*************
+CO ZISKATE
+**************/
 
 #co-ziskate {}
