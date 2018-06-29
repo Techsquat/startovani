@@ -36,7 +36,7 @@ h4 {
 }
 
 h2.gradient {
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 }
 
 p,
@@ -45,10 +45,88 @@ a.button {
 	font-family: 'Open Sans', sans-serif;
 }
 
-a.button {
-	font-size: 1em;
+
+
+
+
+
+h1.subtle,
+h2.subtle,
+h3.subtle,
+h4.subtle {
+	font-weight: 400;
 }
 
+h1 .subtle,
+h2 .subtle,
+h3 .subtle,
+h4 .subtle {
+	font-weight: 400;
+}
+
+p,
+a,
+a.button {
+	font-size: 16px;
+}
+
+h4,
+#nav {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 31px;
+}
+
+h1 {
+	font-size: 39px;
+}
+
+p.small {
+	font-size: 13px;
+}
+
+.small-caps {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+abbr {
+	border-bottom: 1px dashed rgba(17, 17, 68, .3) !important;
+}
+
+/* Medium and up */
+
+@media screen and (min-width: 40em) {
+	p,
+	a,
+	a.button {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 25px;
+	}
+	h3 {
+		font-size: 31px;
+	}
+	h2 {
+		font-size: 39px;
+	}
+	h1 {
+		font-size: 49px;
+	}
+	p.small {
+		font-size: 16px;
+	}
+	ol {
+		margin-left: 0rem;
+	}
+}
 
 
 /*************
@@ -142,7 +220,6 @@ NAVIGATION
 
 .nav-menu a {
 	display: inline-block;
-	font-size: 1rem;
 	color: #EF3847;
 	font-weight: 700;
 }
@@ -212,3 +289,17 @@ CO ZISKATE
 **************/
 
 #co-ziskate {}
+
+
+/*************
+MEDIA COVERAGE
+**************/
+
+.logo-group .cell {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.logo-group .cell img {
+	opacity: .5;
+}
