@@ -28,10 +28,6 @@ h4 {
 	font-weight: 700;
 }
 
-p {
-	margin-bottom: 7px;
-}
-
 .gradient {
 	background: -webkit-linear-gradient(0deg, #1AB24B, #EF3847);
 	-webkit-background-clip: text;
@@ -416,12 +412,12 @@ CALENDAR
 }
 
 .calendar h4 {
-	margin-bottom: 0;
+	margin-bottom: .15em;
 }
 
 .calendar p {
 	margin-bottom: 0;
-	line-height: 1.2;
+	line-height: 1.25;
 }
 
 /*************
