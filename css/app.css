@@ -115,7 +115,6 @@ p.small {
 	bottom: 0;
 }
 
-
 .ndash {
 	margin-left: 0.1em;
 	margin-right: 0.1em;
@@ -124,6 +123,18 @@ p.small {
 abbr {
 	border-bottom: 1px dashed rgba(17, 17, 68, .3) !important;
 }
+
+a.button {
+	background-color: #EF3847;
+	border-radius: .3em;
+}
+
+a.button:active,
+a.button:link,
+a.button:hover {
+	background-color: black;
+}
+
 
 /* Medium and up */
 
