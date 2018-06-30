@@ -370,6 +370,21 @@ MEDIA COVERAGE
 }
 
 /*************
+CALENDAR
+**************/
+
+.calendar .cell {
+	margin-bottom: 0.5em;
+
+}
+
+.calendar .cell .inner {
+	background-color: #ddd;
+	height: 5em;
+	border-radius: .3em;
+}
+
+/*************
 PODPORILI NAS
 **************/
 
