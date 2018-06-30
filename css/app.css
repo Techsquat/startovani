@@ -125,6 +125,11 @@ a.button {
 	border-radius: .3em;
 }
 
+a.button .fa-facebook {
+	margin-right: .3em;
+}
+
+
 a.button:active,
 a.button:link,
 a.button:hover {
