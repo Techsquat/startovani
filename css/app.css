@@ -123,6 +123,7 @@ abbr {
 a.button {
 	background-color: #EF3847;
 	border-radius: .3em;
+	font-weight: 700;
 }
 
 a.button .fa-facebook {
@@ -132,7 +133,8 @@ a.button .fa-facebook {
 
 a.button:active,
 a.button:link,
-a.button:hover {
+a.button:hover,
+a.button:focus {
 	background-color: black;
 }
 
@@ -386,7 +388,7 @@ CALENDAR
 
 }
 
-.calendar .cell .inner {
+.calendar .inner {
 	background-color: #ddd;
 	min-height: 6em;
 	border-radius: .3em;
@@ -394,14 +396,18 @@ CALENDAR
 	padding-top: .2em;
 }
 
-.calendar .cell.active .inner {
+.calendar .active .inner {
 	background-color: #1AB24B;
 	hyphens: auto;
 }
 
-.calendar .cell.active h4,
-.calendar .cell.active p {
+.calendar .active h4,
+.calendar .active p {
 	color: white;
+}
+
+.calendar h4 {
+	margin-bottom: .15em;
 }
 
 .calendar .event {
@@ -416,13 +422,15 @@ CALENDAR
 	color: rgba(50, 50, 100, 1);
 }
 
-.calendar h4 {
-	margin-bottom: .15em;
+
+.calendar .event p {
+	margin-bottom: 0;
+	padding-bottom: 0.5em;
+	line-height: 1.25;
 }
 
-.calendar p {
+.calendar .event .button {
 	margin-bottom: 0;
-	line-height: 1.25;
 }
 
 /*************
