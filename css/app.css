@@ -28,6 +28,10 @@ h4 {
 	font-weight: 700;
 }
 
+p {
+	margin-bottom: 7px;
+}
+
 .gradient {
 	background: -webkit-linear-gradient(0deg, #1AB24B, #EF3847);
 	-webkit-background-clip: text;
@@ -111,19 +115,11 @@ p.small {
 	bottom: 0;
 }
 
-asdasd.quote:before {
-	content: "\201C";
-	position: absolute;
-	left: -0.5em;
-	top: 0;
-}
 
-asdsadasd.quote:after {
-	content: "\201D";
-	right: 0;
-	bottom: 0;
+.ndash {
+	margin-left: 0.1em;
+	margin-right: 0.1em;
 }
-
 
 abbr {
 	border-bottom: 1px dashed rgba(17, 17, 68, .3) !important;
@@ -380,8 +376,41 @@ CALENDAR
 
 .calendar .cell .inner {
 	background-color: #ddd;
-	height: 5em;
+	min-height: 6em;
 	border-radius: .3em;
+	padding: .5em;
+	padding-top: .2em;
+}
+
+.calendar .cell.active .inner {
+	background-color: #1AB24B;
+	hyphens: auto;
+}
+
+.calendar .cell.active h4,
+.calendar .cell.active p {
+	color: white;
+}
+
+.calendar .event {
+	background-color: white;
+	padding: 0.5em;
+	border-radius: .2em;
+	color: black;
+}
+
+.calendar .active .event p,
+.calendar .active .event h4 {
+	color: rgba(50, 50, 100, 1);
+}
+
+.calendar h4 {
+	margin-bottom: 0;
+}
+
+.calendar p {
+	margin-bottom: 0;
+	line-height: 1.2;
 }
 
 /*************
