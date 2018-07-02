@@ -126,6 +126,9 @@ a.button:visited {
 	background-color: #EF3847;
 	border-radius: .3em;
 	font-weight: 700;
+	line-height: 1.55;
+	padding-top: .7em;
+	padding-bottom: .7em;
 }
 
 a.button .fa-facebook {
