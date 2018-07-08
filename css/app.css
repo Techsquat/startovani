@@ -59,7 +59,6 @@ h4 .subtle {
 }
 
 p,
-a,
 a.button {
 	font-size: 16px;
 }
@@ -81,7 +80,8 @@ h1 {
 	font-size: 39px;
 }
 
-p.small {
+p.small,
+.small a.link {
 	font-size: 13px;
 }
 
@@ -173,7 +173,8 @@ a.button:focus {
 	h1 {
 		font-size: 49px;
 	}
-	p.small {
+	p.small,
+	.small a.link {
 		font-size: 16px;
 	}
 	ol {
