@@ -80,8 +80,7 @@ h1 {
 	font-size: 39px;
 }
 
-p.small,
-.small a.link {
+p.small {
 	font-size: 13px;
 }
 
@@ -157,7 +156,6 @@ a.button:focus {
 
 @media screen and (min-width: 40em) {
 	p,
-	a,
 	a.button {
 		font-size: 20px;
 	}
@@ -173,8 +171,7 @@ a.button:focus {
 	h1 {
 		font-size: 49px;
 	}
-	p.small,
-	.small a.link {
+	p.small {
 		font-size: 16px;
 	}
 	ol {
