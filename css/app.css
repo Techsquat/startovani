@@ -300,13 +300,14 @@ NAVIGATION
 
 .nav-menu li {
 	display: inline-block;
-	padding-right: 1rem;
+	padding-right: 1.5em;
 }
 
 .nav-menu a {
 	display: inline-block;
 	color: #EF3847;
 	font-weight: 700;
+	line-height: 2em;
 }
 
 .nav-menu a:hover {
@@ -372,6 +373,7 @@ CO DELAME
 
 .stats {
 	text-align: center;
+	margin-top: 2em;
 }
 
 
