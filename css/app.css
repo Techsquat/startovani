@@ -59,7 +59,8 @@ h4 .subtle {
 }
 
 p,
-a.button {
+a.button,
+.nav-menu a {
 	font-size: 16px;
 }
 
@@ -156,7 +157,8 @@ a.button:focus {
 
 @media screen and (min-width: 40em) {
 	p,
-	a.button {
+	a.button,
+	.nav-menu a {
 		font-size: 20px;
 	}
 	h4 {
@@ -252,6 +254,13 @@ GENERAL
 	box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
 }
 
+@media screen and (max-width: 400px) {
+	.profile-pict,
+	.brand-circle {
+		width: 4.5em;
+		height: 4.5em;
+	}
+}
 
 /*************
 NAVIGATION
