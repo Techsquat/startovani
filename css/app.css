@@ -3,7 +3,7 @@ BASICS
 **************/
 
 body {
-    background: #eee;
+	background: #eee;
 }
 
 
@@ -16,155 +16,169 @@ h1,
 h2,
 h3,
 h4 {
-    color: rgba(50, 50, 100, 1);
+	color: rgba(50, 50, 100, 1);
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 }
 
 .gradient {
-    background: -webkit-linear-gradient(0deg, #1AB24B, #EF3847);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block
+	background: -webkit-linear-gradient(0deg, #1AB24B, #EF3847);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block
 }
 
 h2.gradient {
-    margin-bottom: .5em;
+	margin-bottom: .5em;
 }
 
 p,
 a,
 a.button {
-    font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1.subtle,
 h2.subtle,
 h3.subtle,
 h4.subtle {
-    font-weight: 400;
+	font-weight: 400;
 }
 
 h1 .subtle,
 h2 .subtle,
 h3 .subtle,
 h4 .subtle {
-    font-weight: 400;
+	font-weight: 400;
 }
 
 p,
 a,
 a.button {
-    font-size: 16px;
+	font-size: 16px;
 }
 
 h4,
 #nav {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 h3 {
-    font-size: 25px;
+	font-size: 25px;
 }
 
 h2 {
-    font-size: 31px;
+	font-size: 31px;
 }
 
 h1 {
-    font-size: 39px;
+	font-size: 39px;
 }
 
 p.small {
-    font-size: 13px;
+	font-size: 13px;
 }
 
 .small-caps {
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
 }
 
 .quote {
-    font-style: italic;
-    position: relative;
+	font-style: italic;
+	position: relative;
 }
 
 .quote:before {
-    content: "\201E";
-    position: absolute;
-    left: -0.4em;
-    top: 0;
+	content: "\201E";
+	position: absolute;
+	left: -0.4em;
+	top: 0;
 }
 
 .quote:after {
-    content: "\201C";
-    right: 0;
-    bottom: 0;
+	content: "\201C";
+	right: 0;
+	bottom: 0;
 }
 
 .ndash {
-    margin-left: 0.1em;
-    margin-right: 0.1em;
+	margin-left: 0.1em;
+	margin-right: 0.1em;
 }
 
 abbr {
-    border-bottom: 1px dashed rgba(17, 17, 68, .3) !important;
+	border-bottom: 1px dashed rgba(17, 17, 68, .3) !important;
+}
+
+a.link,
+a.link:visited,
+a.link:link {
+	color: #EF3847;
+	font-weight: 700;
+	border-bottom: 2px solid #EF384780;
+	line-height: 1em;
+}
+
+a.link:hover {
+	color: black;
+	border-bottom: 2px solid #000000;
 }
 
 a.button,
 a.button:link,
 a.button:visited {
-    background-color: #EF3847;
-    border-radius: .3em;
-    font-weight: 700;
-    line-height: 1.55;
-    padding-top: .7em;
-    padding-bottom: .7em;
+	background-color: #EF3847;
+	border-radius: .3em;
+	font-weight: 700;
+	line-height: 1.55;
+	padding-top: .7em;
+	padding-bottom: .7em;
 }
 
 a.button .fa-facebook {
-    margin-right: .3em;
+	margin-right: .3em;
 }
 
 a.button:active,
 a.button:hover,
 a.button:focus {
-    background-color: black;
+	background-color: black;
 }
 
 
 /* Medium and up */
 
 @media screen and (min-width: 40em) {
-    p,
-    a,
-    a.button {
-        font-size: 20px;
-    }
-    h4 {
-        font-size: 25px;
-    }
-    h3 {
-        font-size: 31px;
-    }
-    h2 {
-        font-size: 39px;
-    }
-    h1 {
-        font-size: 49px;
-    }
-    p.small {
-        font-size: 16px;
-    }
-    ol {
-        margin-left: 0rem;
-    }
+	p,
+	a,
+	a.button {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 25px;
+	}
+	h3 {
+		font-size: 31px;
+	}
+	h2 {
+		font-size: 39px;
+	}
+	h1 {
+		font-size: 49px;
+	}
+	p.small {
+		font-size: 16px;
+	}
+	ol {
+		margin-left: 0rem;
+	}
 }
 
 
@@ -173,71 +187,71 @@ GENERAL
 **************/
 
 .block {
-    padding-top: 3em;
-    padding-bottom: 3em;
+	padding-top: 3em;
+	padding-bottom: 3em;
 }
 
 @media screen and (min-width: 40em) {
-    .block {
-        padding-top: 4em;
-        padding-bottom: 4em;
-    }
+	.block {
+		padding-top: 4em;
+		padding-bottom: 4em;
+	}
 }
 
 .illus {
-    width: 10em;
-    height: 10em;
+	width: 10em;
+	height: 10em;
 }
 
 .illus.smaller {
-    padding: .7em;
+	padding: .7em;
 }
 
 
 /* Tablets */
 
 @media screen and (max-width: 60em) {
-    .illus {
-        width: 8em;
-        height: 8em;
-    }
+	.illus {
+		width: 8em;
+		height: 8em;
+	}
 }
 
 
 /* Phones */
 
 @media screen and (max-width: 400px) {
-    .illus {
-        width: 6em;
-        height: 6em;
-    }
+	.illus {
+		width: 6em;
+		height: 6em;
+	}
 }
 
 .profile-pict,
 .brand-circle {
-    width: 6em;
-    height: 6em;
+	width: 6em;
+	height: 6em;
 }
 
 .brand-circle {
-    border-radius: 100%;
-    background-color: #eee;
-    padding: 1em;
+	border-radius: 100%;
+	background-color: #eee;
+	padding: 1em;
 }
 
 .brand-circle img {
-    vertical-align: middle;
+	vertical-align: middle;
 }
 
 .profile-pict {
-    margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 .card {
-    padding: 1.25em;
-    border-radius: .3em;
-    border: none;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+	padding: 1.25em;
+	border-radius: .3em;
+	border: none;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
 }
 
 
@@ -246,64 +260,64 @@ NAVIGATION
 **************/
 
 .top-nav-ribbon {
-    background-color: white;
-    padding-top: 1.3em;
+	background-color: white;
+	padding-top: 1.3em;
 }
 
 .logo-startovani {
-    display: inline-block;
-    background: -webkit-linear-gradient(0deg, #1AB24B, #EF3847);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	display: inline-block;
+	background: -webkit-linear-gradient(0deg, #1AB24B, #EF3847);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .image-wrapper {
-    display: inline-block;
+	display: inline-block;
 }
 
 .logo-startupweekend {
-    max-width: 16em;
+	max-width: 16em;
 }
 
 .logo-startupweekend img {}
 
 .logo-startupgrind {
-    max-width: 10em;
+	max-width: 10em;
 }
 
 .logo-startupgrind img {}
 
 .line {
-    border-bottom: 2px solid #ddd;
-    margin-top: 1em;
+	border-bottom: 2px solid #ddd;
+	margin-top: 1em;
 }
 
 .nav-menu {
-    padding-left: 0;
-    margin-left: 0;
-    margin-top: 1em;
+	padding-left: 0;
+	margin-left: 0;
+	margin-top: 1em;
 }
 
 .nav-menu li {
-    display: inline-block;
-    padding-right: 1rem;
+	display: inline-block;
+	padding-right: 1rem;
 }
 
 .nav-menu a {
-    display: inline-block;
-    color: #EF3847;
-    font-weight: 700;
+	display: inline-block;
+	color: #EF3847;
+	font-weight: 700;
 }
 
 .nav-menu a:hover {
-    color: black;
+	color: black;
 }
 
 @media screen and (max-width: 39.9375em) {
-    .logos {
-        max-width: 28em;
-    }
-    .logos > .grid-x {}
+	.logos {
+		max-width: 28em;
+	}
+	.logos > .grid-x {}
 }
 
 
@@ -312,21 +326,21 @@ TEASER
 **************/
 
 #teaser {
-    background: -webkit-linear-gradient(0deg, #1AB24B, #EF3847);
+	background: -webkit-linear-gradient(0deg, #1AB24B, #EF3847);
 }
 
 #teaser p,
 #teaser h1 {
-    color: white;
+	color: white;
 }
 
 #teaser h1 {
-    line-height: 1.15;
-    margin-bottom: 0.5em;
+	line-height: 1.15;
+	margin-bottom: 0.5em;
 }
 
 .responsive-embed {
-    border-radius: 0.5em;
+	border-radius: 0.5em;
 }
 
 
@@ -341,7 +355,6 @@ TEASER
 	background-size: 9.90px 9.90px;
 }*/
 
-
 /*************
 CO DELAME
 **************/
@@ -349,16 +362,16 @@ CO DELAME
 #co-delame {}
 
 #co-delame .call-out {
-    text-align: center;
+	text-align: center;
 }
 
 #co-delame .call-out h2 {
-    font-size: 4em;
-    font-weight: 400;
+	font-size: 4em;
+	font-weight: 400;
 }
 
 .stats {
-    text-align: center;
+	text-align: center;
 }
 
 
@@ -374,12 +387,12 @@ MEDIA COVERAGE
 **************/
 
 .logo-group .cell {
-    padding-top: 1em;
-    padding-bottom: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .logo-group .cell img {
-    opacity: .5;
+	opacity: .5;
 }
 
 
@@ -388,52 +401,52 @@ CALENDAR
 **************/
 
 .calendar .cell {
-    margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 .calendar .inner {
-    background-color: #ddd;
-    min-height: 6em;
-    border-radius: .3em;
-    padding: .5em;
-    padding-top: .2em;
+	background-color: #ddd;
+	min-height: 6em;
+	border-radius: .3em;
+	padding: .5em;
+	padding-top: .2em;
 }
 
 .calendar .active .inner {
-    background-color: #1AB24B;
-    hyphens: auto;
+	background-color: #1AB24B;
+	hyphens: auto;
 }
 
 .calendar .active h4,
 .calendar .active p {
-    color: white;
+	color: white;
 }
 
 .calendar h4 {
-    margin-bottom: -0.15em;
+	margin-bottom: -0.15em;
 }
 
 .calendar .event {
-    background-color: white;
-    padding: 0.5em;
-    border-radius: .2em;
-    color: black;
-    margin-top: 0.5em;
+	background-color: white;
+	padding: 0.5em;
+	border-radius: .2em;
+	color: black;
+	margin-top: 0.5em;
 }
 
 .calendar .active .event p,
 .calendar .active .event h4 {
-    color: rgba(50, 50, 100, 1);
+	color: rgba(50, 50, 100, 1);
 }
 
 .calendar .event p {
-    margin-bottom: 0;
-    padding-bottom: 0.5em;
-    line-height: 1.25;
+	margin-bottom: 0;
+	padding-bottom: 0.5em;
+	line-height: 1.25;
 }
 
 .calendar .event .button {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 
@@ -442,11 +455,11 @@ PODPORILI NAS
 **************/
 
 .profile-pict {
-    border-radius: 100%;
+	border-radius: 100%;
 }
 
 @media screen and (max-width: 39.9375em) {
-    .calendar .cell.empty {
-        display: none !important;
-    }
+	.calendar .cell.empty {
+		display: none !important;
+	}
 }
